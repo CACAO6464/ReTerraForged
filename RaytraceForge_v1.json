@@ -1,0 +1,305 @@
+{
+  "filters": {
+    "erosion": {
+      "dropletVelocity": 0.7,
+      "erosionRate": 0.5,
+      "depositeRate": 0.5,
+      "dropletsPerChunk": 110,
+      "dropletLifetime": 12,
+      "dropletVolume": 0.7
+    },
+    "smoothing": {
+      "iterations": 1,
+      "smoothingRadius": 1.8,
+      "smoothingRate": 0.9
+    }
+  },
+  "structures": {
+    "structures": {
+      "minecraft:jungle_temples": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357619,
+        "disabled": false
+      },
+      "minecraft:ocean_ruins": {
+        "spacing": 20,
+        "separation": 8,
+        "salt": 14357621,
+        "disabled": false
+      },
+      "minecraft:villages": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 10387312,
+        "disabled": false
+      },
+      "minecraft:ruined_portals": {
+        "spacing": 40,
+        "separation": 15,
+        "salt": 34222645,
+        "disabled": false
+      },
+      "minecraft:shipwrecks": {
+        "spacing": 24,
+        "separation": 4,
+        "salt": 165745295,
+        "disabled": false
+      },
+      "minecraft:igloos": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357618,
+        "disabled": false
+      },
+      "minecraft:pillager_outposts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 165745296,
+        "disabled": false
+      },
+      "minecraft:trail_ruins": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 83469867,
+        "disabled": false
+      },
+      "minecraft:ocean_monuments": {
+        "spacing": 32,
+        "separation": 5,
+        "salt": 10387313,
+        "disabled": false
+      },
+      "minecraft:ancient_cities": {
+        "spacing": 24,
+        "separation": 8,
+        "salt": 20083232,
+        "disabled": false
+      },
+      "minecraft:woodland_mansions": {
+        "spacing": 80,
+        "separation": 20,
+        "salt": 10387319,
+        "disabled": false
+      },
+      "minecraft:buried_treasures": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
+        "disabled": false
+      },
+      "minecraft:desert_pyramids": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357617,
+        "disabled": false
+      },
+      "minecraft:swamp_huts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 1636182036,
+        "disabled": false
+      },
+      "minecraft:mineshafts": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
+        "disabled": false
+      }
+    }
+  },
+  "miscellaneous": {
+    "vanillaLavaLakes": false,
+    "vanillaLavaSprings": false,
+    "mountainBiomeUsage": 0.7998282,
+    "volcanoBiomeUsage": 0.7998282,
+    "naturalSnowDecorator": true,
+    "customBiomeFeatures": true,
+    "vanillaSprings": false,
+    "oreCompatibleStoneOnly": true,
+    "erosionDecorator": true,
+    "plainStoneErosion": false,
+    "smoothLayerDecorator": true,
+    "strataRegionSize": 600,
+    "strataDecorator": true
+  },
+  "terrain": {
+    "torridonian": {
+      "weight": 0.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "mountains": {
+      "weight": 0.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.460481,
+      "horizontalScale": 2.0017183
+    },
+    "volcano": {
+      "weight": 0.0,
+      "baseScale": 1.0,
+      "verticalScale": 2.0274913,
+      "horizontalScale": 1.0
+    },
+    "plateau": {
+      "weight": 1.0223367,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 2.09622
+    },
+    "badlands": {
+      "weight": 0.0,
+      "baseScale": 1.0,
+      "verticalScale": 2.1477664,
+      "horizontalScale": 1.0
+    },
+    "plains": {
+      "weight": 0.0,
+      "baseScale": 1.0,
+      "verticalScale": 2.09622,
+      "horizontalScale": 2.09622
+    },
+    "hills": {
+      "weight": 1.04811,
+      "baseScale": 1.0,
+      "verticalScale": 4.0206184,
+      "horizontalScale": 10.0
+    },
+    "dales": {
+      "weight": 0.0,
+      "baseScale": 1.0,
+      "verticalScale": 2.0103092,
+      "horizontalScale": 1.0
+    },
+    "general": {
+      "globalHorizontalScale": 2.2563574,
+      "fancyMountains": false,
+      "legacyMountainScaling": false,
+      "terrainSeedOffset": 0,
+      "terrainRegionSize": 5000,
+      "globalVerticalScale": 1.0
+    },
+    "steppe": {
+      "weight": 1.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 2.2852235
+    }
+  },
+  "rivers": {
+    "branchRivers": {
+      "bankWidth": 25,
+      "bedWidth": 10,
+      "fade": 0.5,
+      "bedDepth": 2,
+      "minBankHeight": 0,
+      "maxBankHeight": 1
+    },
+    "lakes": {
+      "sizeMin": 75,
+      "sizeMax": 250,
+      "minBankHeight": 1,
+      "maxBankHeight": 10,
+      "chance": 1.0,
+      "minStartDistance": 0.0,
+      "maxStartDistance": 0.03,
+      "depth": 4
+    },
+    "wetlands": {
+      "chance": 0.20017183,
+      "sizeMin": 50,
+      "sizeMax": 90
+    },
+    "seedOffset": 0,
+    "riverCount": 0,
+    "mainRivers": {
+      "bankWidth": 50,
+      "bedWidth": 20,
+      "fade": 0.29982817,
+      "bedDepth": 4,
+      "minBankHeight": 0,
+      "maxBankHeight": 1
+    }
+  },
+  "world": {
+    "continent": {
+      "continentNoiseGain": 0.0017182131,
+      "continentNoiseLacunarity": 1.0,
+      "continentSkipping": 0.75343645,
+      "continentSizeVariance": 0.75,
+      "continentType": "MULTI_IMPROVED",
+      "continentShape": "MANHATTAN",
+      "continentScale": 3502,
+      "continentJitter": 0.520189
+    },
+    "controlPoints": {
+      "shallowOcean": 0.09965636,
+      "beach": 0.25,
+      "coast": 0.30068728,
+      "inland": 0.502,
+      "islandCoast": 0.0,
+      "deepOcean": 0.0017182131
+    },
+    "properties": {
+      "seaLevel": 63,
+      "spawnType": "CONTINENT_CENTER",
+      "worldHeight": 1024
+    }
+  },
+  "surface": {
+    "erosion": {
+      "dirtMin": 480,
+      "rockSteepness": 0.65,
+      "dirtSteepness": 0.475,
+      "screeSteepness": 0.4,
+      "rockVariance": 30,
+      "rockMin": 1024,
+      "dirtVariance": 40
+    }
+  },
+  "caves": {
+    "ravineCarverProbability": 0.02,
+    "largeOreVeins": true,
+    "legacyCarverDistribution": false,
+    "caveCarverProbability": 0.14285715,
+    "deepCaveCarverProbability": 0.07,
+    "cheeseCaveProbability": 1.0,
+    "spaghettiCaveProbability": 1.0,
+    "noodleCaveProbability": 1.0,
+    "entranceCaveProbability": 0.0,
+    "cheeseCaveDepthOffset": 1.5625
+  },
+  "climate": {
+    "temperature": {
+      "min": 0.0,
+      "max": 0.9613402,
+      "bias": -0.28006873,
+      "seedOffset": 0,
+      "scale": 20,
+      "falloff": 2
+    },
+    "moisture": {
+      "min": 0.0,
+      "max": 1.0,
+      "bias": 0.20103092,
+      "seedOffset": 0,
+      "scale": 20,
+      "falloff": 1
+    },
+    "biomeShape": {
+      "biomeSize": 205,
+      "macroNoiseSize": 5,
+      "biomeWarpScale": 150,
+      "biomeWarpStrength": 80
+    },
+    "biomeEdgeShape": {
+      "gain": 0.5,
+      "lacunarity": 2.65,
+      "strength": 14,
+      "type": "PERLIN",
+      "scale": 24,
+      "octaves": 2
+    }
+  }
+}
